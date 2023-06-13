@@ -1,5 +1,8 @@
+#Droping database if alraedy exist
 drop database if exists om_odi_Cricket_landing cascade;
+#Creating database
 create database om_odi_Cricket_landing;
+#Using database om_odi_Cricket_landing
 Use om_odi_Cricket_landing;
 CREATE EXTERNAL TABLE if not exists odi_cricket_landing (
   match_id STRING,
