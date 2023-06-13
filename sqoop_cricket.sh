@@ -1,0 +1,8 @@
+--connect jdbc:mysql://cxln2:3306/sqoopex \
+--username 'sqoopuser' \
+--password 'NHkkP876rp' \
+--table odi_cricket_curated \
+--export-dir hdfs://cxln1.c.thelab-240901.internal:8020/user/bigdatacloudxlab27228/hdfs_odi_cricket_curated1 \
+--input-fields-terminated-by ',' \
+--lines-terminated-by '\n' \
+--m 1
