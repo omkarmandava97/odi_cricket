@@ -9,3 +9,5 @@ sh /home/bigdatacloudxlab27228/om_odi_cricket_landing/sqoop_cricket.sh
 
 
 #hii this is gnanendra's line of comment
+
+#test 2 again
