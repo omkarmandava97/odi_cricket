@@ -6,3 +6,6 @@ hdfs dfs -copyFromLocal /home/bigdatacloudxlab27228/om_odi_cricket_landing/odi_c
 hive -f /home/bigdatacloudxlab27228/om_odi_cricket_landing/hive_cricket.hql
 spark-submit /home/bigdatacloudxlab27228/om_odi_cricket_landing/pyspark_cricket.py
 sh /home/bigdatacloudxlab27228/om_odi_cricket_landing/sqoop_cricket.sh
+
+
+#hii this is gnanendra's line of comment
